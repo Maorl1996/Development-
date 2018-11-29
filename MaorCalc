@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <style>
+     div.screen{
+        color:rgb(127, 211, 214);
+        background-color: rgb(127, 211, 214);
+        border: 15px solid rgb(127, 211, 214);
+        width: 45%;
+        height: 500px;
+        position: absolute;
+        z-index: 1;
+    } 
+
+    /* button {
+        background: whitesmoke;
+        text-align: center;
+        color: black;
+    } */
+     div.BlackSolution{
+        background-color:black;
+        position: absolute;
+        width: 32.5%;
+        height: 75px;
+        top:50px;
+        left: 75px;
+        z-index: 2;
+    } 
+     div.ButtonPlus{
+        background-color:rgb(211, 211, 211);
+        position: absolute;
+        width: 8%;
+        height: 70px;
+        top:126px;
+        left: 75px;
+        z-index: 2;
+    }
+    div.ButtonMinus{
+        background-color:rgb(211, 211, 211);
+        position: absolute;
+        width: 8%;
+        height: 70px;
+        top:126px;
+        left: 180px;
+        z-index: 2;
+    }
+     div.ButtonDiv{
+        background-color:rgb(211, 211, 211);
+        position: absolute;
+        width: 8%;
+        height: 70px;
+        top:126px;
+        left: 285px;
+        z-index: 2;
+    }
+    div.ButtonMult{
+        background-color:rgb(211, 211, 211);
+        position: absolute;
+        width: 8%;
+        height: 70px;
+        top:126px;
+        left: 389px;
+        z-index: 2;
+    }
+    div.ButtonSeven{
+        background-color:rgb(211, 211, 211);
+        position: absolute;
+        width: 8%;
+        height: 70px;
+        top:200px;
+        left: 75px;
+        z-index: 2;
+    }
+    div.ButtonEight{
+        background-color:rgb(211, 211, 211);
+        position: absolute;
+        width: 8%;
+        height: 70px;
+        top:200px;
+        left: 180px;
+        z-index: 2;
+    }
+    div.ButtonNine{
+        background-color:rgb(211, 211, 211);
+        position: absolute;
+        width: 8%;
+        height: 70px;
+        top:200px;
+        left: 285px;
+        z-index: 2;   
+    }
+    div.ButtonFour{
+        background-color:rgb(211, 211, 211);
+        position: absolute;
+        width: 8%;
+        height: 70px;
+        top:275px;
+        left: 75px;
+        z-index: 2;
+    }
+    div.ButtonFive{
+        background-color:rgb(211, 211, 211);
+        position: absolute;
+        width: 8%;
+        height: 70px;
+        top:275px;
+        left: 180px;
+        z-index: 2;
+    }
+    div.ButtonSix{
+        background-color:rgb(211, 211, 211);
+        position: absolute;
+        width: 8%;
+        height: 70px;
+        top:275px;
+        left: 285px;
+        z-index: 2;   
+    }
+    div.ButtonOne{
+        background-color:rgb(211, 211, 211);
+        position: absolute;
+        width: 8%;
+        height: 70px;
+        top:350px;
+        left: 75px;
+        z-index: 2;
+    }
+    div.ButtonTwo{
+        background-color:rgb(211, 211, 211);
+        position: absolute;
+        width: 8%;
+        height: 70px;
+        top:350px;
+        left: 180px;
+        z-index: 2;
+    }
+    div.ButtonThree{
+        background-color:rgb(211, 211, 211);
+        position: absolute;
+        width: 8%;
+        height: 70px;
+        top:350px;
+        left: 285px;
+        z-index: 2; 
+    }
+    div.ButtonZero{
+        background-color:rgb(211, 211, 211);
+        position: absolute;
+        width: 8%;
+        height: 70px;
+        top:425px;
+        left: 75px;
+        z-index: 2;
+    }
+    div.ButtonPoint{
+        background-color:rgb(211, 211, 211);
+        position: absolute;
+        width: 8%;
+        height: 70px;
+        top:425px;
+        left: 180px;
+        z-index: 2;
+    }
+    div.ButtonCancel{
+        background-color:rgb(211, 211, 211);
+        position: absolute;
+        width: 8%;
+        height: 70px;
+        top:425px;
+        left: 285px;
+        z-index: 2; 
+    }
+    div.ButtonEquals{
+        background-color:rgb(199, 54, 54);
+        position: absolute;
+        width: 8%;
+        height: 295px;
+        top:200px;
+        left: 389px;
+        z-index: 2;
+    } 
+    p.text{
+            padding:10px;
+            margin-left: 50px;
+      }
+    #ScreenText{
+        color:white;
+        margin-left: 380px;
+        top: -33px;
+        font-size: 3em;
+        position: absolute;
+        z-index: 3;
+        right:10px;
+    }
+  </style> 
+  </head>
+  <body>
+      <div class='screen' id='calcId'></div>
+      <div class='BlackSolution' id='SolId'><p id='ScreenText'></p></div>
+      <div id="calc"></div>
+      <div class='ButtonPlus' value='+'><p class='text'>+</p></div>
+      <div class='ButtonMinus' value='-'><p class='text'>-</p></div>
+      <div class='ButtonDiv' value='/'><p class='text'>/</p></div>
+      <div class='ButtonMult' value='*'><p class='text'>*</p></div> 
+      <div class='ButtonPoint' value='.'><p class='text'>.</p></div>
+      <div class='ButtonCancel' value='C'><p id='Cancel' class='text'>C</p></div>
+      <div class='ButtonEquals' value='='><p class='text'>=</p></div> 
+      <div class='ButtonZero' value='0'><p class='text'>0</p></div> 
+      <div class='ButtonOne' value='1'><p class='text'>1</p></div>
+      <div class='ButtonTwo' value='2'><p class='text'>2</p></div>
+      <div class='ButtonThree' value='3'><p class='text'>3</p></div>
+      <div class='ButtonFour' value='4'><p class='text'>4</p></div> 
+      <div class='ButtonFive' value='5'><p class='text'>5</p></div>
+      <div class='ButtonSix' value='6'><p class='text'>6</p></div>
+      <div class='ButtonSeven' value='7'><p class='text'>7</p></div>
+      <div class='ButtonEight' value='8'><p class='text'>8</p></div>
+      <div class='ButtonNine' value='9'><p class='text'>9</p></div> 
+  </body>
+</html>
+
+<script>
+    //Change the value on the screen
+    function changeValue(number){
+        document.getElementById('ScreenText').innerHTML = number;
+    }
+    //Init the screen in the begining of the web  
+    function initScreen(){
+        document.getElementById('ScreenText').innerText = '0';
+    }
+    //Change the text on div by the num of press
+    function Cancel(bIsCancel){
+        var valueCancel = bIsCancel ? 'AC' : 'C';
+        document.getElementById('Cancel').innerText = valueCancel;
+    }
+    //The func that calculate the numbers by params
+    function Action(firstNum, action, secNum){
+        var sum;
+
+        // Get the function and do the correct action
+        switch (action){
+            case '+':
+                sum = parseFloat(firstNum) + parseFloat(secNum);
+                break;
+            case '*':
+                sum = parseFloat(firstNum) * parseFloat(secNum);       
+                break;
+            case '/':
+                sum = parseFloat(firstNum) / parseFloat(secNum);
+                break;
+            case '-':
+                sum = parseFloat(firstNum) - parseFloat(secNum);
+                break;    
+        } 
+
+        temp=sum;
+        return sum;  
+    }
+
+    // init 
+    initScreen();
+    
+    // Variables
+    var sign = ['+', '-', '*', '/'];
+    var numbers = ['0','1','2','3','4','5','6','7','8','9', '.'];
+    var elem = document.getElementsByTagName('div');
+    var bIsExsist = false;
+    var temp='';
+    var firstNumber = '';
+    var action ='';
+    var secNumber = '';
+    var sum = 0;
+
+
+    // Loop of the elements div by thier values 
+    for(let i= 0; i < elem.length; i++ ){
+        // Check this functions when we clicked 
+        elem[i].onclick = function(){
+            // Loop the signs and check if cuurent value is sign
+            sign.forEach(function(s){
+                if(elem[i].getAttribute('value') == s){
+                    bIsExsist = true; 
+                    action = s;
+                    Cancel(false);
+                }
+               
+            });
+
+            // Clean the screen if this pressed
+            if(elem[i].getAttribute('value') == 'C'){
+                bIsExsist = false; 
+                changeValue('0');
+                Cancel(false);
+                temp = '';
+            }
+            
+            // Save the numbers if action pressed 
+            if((elem[i].getAttribute('value') != 'C')
+                && (elem[i].getAttribute('value') != '=')){
+                    if(!bIsExsist){
+                        Cancel(true);
+                        if(temp.length < 16){
+                            temp = temp.concat(elem[i].getAttribute('value'));
+                         }
+                
+                        changeValue(temp);
+                    }
+                    else{
+                        firstNumber = temp;
+                        temp = '';
+                        bIsExsist = false;
+                    }
+              
+            } 
+           
+           //Check if the sign is equals
+            if(elem[i].getAttribute('value') == '='){
+                secNumber = temp;
+                bIsExsist = false;
+                if(firstNumber != null || secNumber != null || action != null){
+                    sum = Action(firstNumber, action, secNumber);
+
+                    changeValue(sum);
+                }
+            } 
+        }
+    }
+
+    
+
+</script>
