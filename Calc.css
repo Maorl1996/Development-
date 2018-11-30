@@ -1,0 +1,184 @@
+div.screen{
+    color:rgb(127, 211, 214);
+    background-color: rgb(127, 211, 214);
+    border: 15px solid rgb(127, 211, 214);
+    width: 45%;
+    height: 500px;
+    position: absolute;
+    z-index: 1;
+} 
+div.BlackSolution{
+    background-color:black;
+    position: absolute;
+    width: 32.5%;
+    height: 75px;
+    top:50px;
+    left: 75px;
+    z-index: 2;
+} 
+div.ButtonPlus{
+    background-color:rgb(211, 211, 211);
+    position: absolute;
+    width: 8%;
+    height: 70px;
+    top:126px;
+    left: 75px;
+    z-index: 2;
+}
+div.ButtonMinus{
+    background-color:rgb(211, 211, 211);
+    position: absolute;
+    width: 8%;
+    height: 70px;
+    top:126px;
+    left: 180px;
+    z-index: 2;
+}
+div.ButtonDiv{
+    background-color:rgb(211, 211, 211);
+    position: absolute;
+    width: 8%;
+    height: 70px;
+    top:126px;
+    left: 285px;
+    z-index: 2;
+}
+div.ButtonMult{
+    background-color:rgb(211, 211, 211);
+    position: absolute;
+    width: 8%;
+    height: 70px;
+    top:126px;
+    left: 389px;
+    z-index: 2;
+}
+div.ButtonSeven{
+    background-color:rgb(211, 211, 211);
+    position: absolute;
+    width: 8%;
+    height: 70px;
+    top:200px;
+    left: 75px;
+    z-index: 2;
+}
+div.ButtonEight{
+    background-color:rgb(211, 211, 211);
+    position: absolute;
+    width: 8%;
+    height: 70px;
+    top:200px;
+    left: 180px;
+    z-index: 2;
+}
+div.ButtonNine{
+    background-color:rgb(211, 211, 211);
+    position: absolute;
+    width: 8%;
+    height: 70px;
+    top:200px;
+    left: 285px;
+    z-index: 2;   
+}
+div.ButtonFour{
+    background-color:rgb(211, 211, 211);
+    position: absolute;
+    width: 8%;
+    height: 70px;
+    top:275px;
+    left: 75px;
+    z-index: 2;
+}
+div.ButtonFive{
+    background-color:rgb(211, 211, 211);
+    position: absolute;
+    width: 8%;
+    height: 70px;
+    top:275px;
+    left: 180px;
+    z-index: 2;
+}
+div.ButtonSix{
+    background-color:rgb(211, 211, 211);
+    position: absolute;
+    width: 8%;
+    height: 70px;
+    top:275px;
+    left: 285px;
+    z-index: 2;   
+}
+div.ButtonOne{
+    background-color:rgb(211, 211, 211);
+    position: absolute;
+    width: 8%;
+    height: 70px;
+    top:350px;
+    left: 75px;
+    z-index: 2;
+}
+div.ButtonTwo{
+    background-color:rgb(211, 211, 211);
+    position: absolute;
+    width: 8%;
+    height: 70px;
+    top:350px;
+    left: 180px;
+    z-index: 2;
+}
+div.ButtonThree{
+    background-color:rgb(211, 211, 211);
+    position: absolute;
+    width: 8%;
+    height: 70px;
+    top:350px;
+    left: 285px;
+    z-index: 2; 
+}
+div.ButtonZero{
+    background-color:rgb(211, 211, 211);
+    position: absolute;
+    width: 8%;
+    height: 70px;
+    top:425px;
+    left: 75px;
+    z-index: 2;
+}
+div.ButtonPoint{
+    background-color:rgb(211, 211, 211);
+    position: absolute;
+    width: 8%;
+    height: 70px;
+    top:425px;
+    left: 180px;
+    z-index: 2;
+}
+div.ButtonCancel{
+    background-color:rgb(211, 211, 211);
+    position: absolute;
+    width: 8%;
+    height: 70px;
+    top:425px;
+    left: 285px;
+    z-index: 2; 
+}
+div.ButtonEquals{
+    background-color:rgb(199, 54, 54);
+    position: absolute;
+    width: 8%;
+    height: 295px;
+    top:200px;
+    left: 389px;
+    z-index: 2;
+} 
+p.text{
+        padding:10px;
+        margin-left: 50px;
+}
+#ScreenText{
+    color:white;
+    margin-left: 380px;
+    top: -33px;
+    font-size: 3em;
+    position: absolute;
+    z-index: 3;
+    right:10px;
+}
