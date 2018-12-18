@@ -1,0 +1,134 @@
+[
+    {
+        "id": "1", 
+        "name": "Hamburgers",
+        "rating": 4.5,
+        "author": "Jane",
+        "preparationTime": 0.58,
+        "type": "Meat",
+        "ingredients": [
+            {
+                "name": "Beef",
+                "quantity": 2,
+                "type": "meat"
+            },
+            {
+                "name": "Egg",
+                "quantity": 1,
+                "type": "vegetarian"
+            },
+            {
+                "name": "Lettuce",
+                "quantity": 1,
+                "type": "vegetarian"
+            },
+            {
+                "name": "Tomato",
+                "quantity": 1,
+                "type": "vegetarian"
+            },
+            {
+                "name": "Bread",
+                "quantity": 1,
+                "type": "vegetarian"
+            },
+            {
+                "name": "Onion",
+                "quantity": 1,
+                "type": "vegetarian"
+            }
+        ],
+        "steps": [
+                "Preheat grill for high heat",
+                "In a large bowl, mix the ground beef, egg, bread crumbs",
+                "Lightly oil the grill grate. Grill patties 5 minutes per side, or until well done"
+               ],
+        "image": "https://cdn.cpnscdn.com/static.coupons.com/ext/kitchme/images/recipes/600x400/weight-watchers-juicy-hamburgers_6515.jpg"
+    },
+    {
+        "id": "2",
+        "name": "Homemade pizza",
+        "rating": 5,
+        "author": "Elise bauer",
+        "preparationTime": 2,
+        "type": "Milk",
+        "ingredients": [
+            {
+                "name": "Cheese",
+                "quantity": 2,
+                "type": "Milk"
+            },
+            {
+                "name": "Salt",
+                "quantity": 2,
+                "type": "vegetarian"
+            },
+            {
+                "name": "Tomato",
+                "quantity": 2,
+                "type": "vegetarian"
+            },
+            {
+                "name": "Dough",
+                "quantity": 1,
+                "type": "vegetarian"
+            },
+            {
+                "name": "Olive oil",
+                "quantity": 1,
+                "type": "vegetarian"
+            }
+        ],
+        "steps": [
+                "Add olive oil into a large skillet over medium heat",
+                "Stir in garlic and cook just until fragrant",
+                "Cook until liquid is reduced to your liking",
+                "Taste and adjust seasoning"
+               ],
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0JQ1xNI4KX6I5tnWcdgz53f9I5QssZdoG8ZO_l77G-dKqbifx"
+    },
+    {
+        "id": "3",
+        "name": "Salad",
+        "rating": 3.9,
+        "author": "Tom Kerridge",
+        "preparationTime": 0.3,
+        "type": "vegetarian",
+        "ingredients": [
+            {
+                "name": "Cucumber",
+                "quantity": 3,
+                "type": "vegetarian"
+            },
+            {
+                "name": "Tomato",
+                "quantity": 3,
+                "type": "vegetarian"
+            },
+            {
+                "name": "Oil",
+                "quantity": 2,
+                "type": "vegetarian"
+            },
+            {
+                "name": "Lettuce",
+                "quantity": 1,
+                "type": "vegetarian"
+            },
+            {
+                "name": "Onion",
+                "quantity": 1,
+                "type": "vegetarian"
+            }
+        ],
+        "steps": [
+                "Cut the cucmber to small pieces",
+                "Cut the tomato to small pieces",
+                "Cut the lecttuce to small pieces",
+                "Cut the onion to small pieces",
+                "Mix the vagetables",
+                "Put oil above the salad plate"
+               ],
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROpEzPOdt401IDDoAOIFymLtJ_dZ2nA8V5azch3MBNWlk1SSx-"
+    }
+]
