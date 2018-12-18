@@ -1,0 +1,37 @@
+[
+    {
+        "name": "Maor",
+        "password": "Maorl1234",
+        "fullName": "Maor Lahav"
+    },
+    {
+        "name": "Dor",
+        "password": "48753222",
+        "fullName": "Dor shmaryau"
+    },
+    {
+        "name": "Mark",
+        "password": "sdf532",
+        "fullName": "Mark Volk"
+    },
+    {
+        "name": "Matan",
+        "password": "54321",
+        "fullName": "Matan Shamya"
+    },
+    {
+        "name": "Yair",
+        "password": "1357",
+        "fullName": "Yair Pur"
+    },
+    {
+        "name": "Aviel",
+        "password": "487532",
+        "fullName": "Aviel levi"
+    },
+    {
+        "name": "Guy",
+        "password": "4822234",
+        "fullName": "Guy rabina"
+    }    
+]
